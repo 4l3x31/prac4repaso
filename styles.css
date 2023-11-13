@@ -1,0 +1,96 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Estilos generales */
+  h1, h2, p, label {
+    margin: 0;
+  }
+  
+  /* Página de Login */
+  .login-page {
+    text-align: center;
+    padding: 20px;
+  }
+  
+  form {
+    display: flex;
+    flex-direction: column;
+    max-width: 300px;
+    margin: 0 auto;
+  }
+  
+  button {
+    margin-top: 10px;
+  }
+  
+  /* Página Principal */
+  .main-page {
+    /* Elimina display: none para que la página sea visible */
+  }
+  
+  header {
+    background-color: #333;
+    color: white;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  nav ul {
+    list-style: none;
+    display: flex;
+  }
+  
+  nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 10px;
+  }
+  
+  form {
+    margin-left: auto;
+  }
+  
+  /* Content Grid */
+  .content-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+    gap: 20px;
+    padding: 20px;
+  }
+  
+  /* Página de Detalle */
+  .detail-page {
+    display: grid; /* Oculta la página de detalle por defecto */
+  }
+  
+  /* Content Detail */
+  .content-detail {
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: center;
+  }
+  
+  .content-detail img {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  /* Related Content Grid */
+  .related-content-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+    gap: 20px;
+    padding: 20px;
+  }
+  
+@media only screen and (max-width: 600px) {
+    body {
+      font-size: 14px;
+    }
+  
+  }
